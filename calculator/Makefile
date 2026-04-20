@@ -1,3 +1,5 @@
+# test
+
 calculator: main.o addition.o subtraction.o multiplication.o division.o
 	gcc main.o addition.o subtraction.o multiplication.o division.o -o calculator
 
