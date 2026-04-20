@@ -11,4 +11,4 @@ assert run("2 * 4").exit_status == 0
 # Checks that the program fails (correctly errors) for input "2 @ 3"
 assert run("2 @ 3").exit_status != 0
 
-#print("All tests passed!")
+print("All tests passed!")
