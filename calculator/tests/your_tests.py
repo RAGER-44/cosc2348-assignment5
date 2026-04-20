@@ -10,3 +10,7 @@ def test_multiply():
     print("TEST RUN: multiplication")
     result = run("4", "*", "2")
     assert result == "8"
+
+if __name__ == "__main__":
+    test_add()
+    test_multiply()
