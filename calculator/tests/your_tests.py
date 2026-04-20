@@ -11,7 +11,3 @@ def test_add():
 def test_multiply():
 	result = run("4", "*", "2")
 	assert result == "8"
-
-###
-
-print("All tests passed!")
