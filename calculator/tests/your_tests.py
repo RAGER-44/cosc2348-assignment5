@@ -2,9 +2,11 @@
 from calculator_adapter import run
 
 def test_add():
-	result = run("5", "+", "3")
-	assert result == "8"
+    print("TEST RUN: addition")
+    result = run("5", "+", "3")
+    assert result == "8"
 
 def test_multiply():
-	result = run("4", "*", "2")
-	assert result == "8"
+    print("TEST RUN: multiplication")
+    result = run("4", "*", "2")
+    assert result == "8"
